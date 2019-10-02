@@ -29,7 +29,7 @@ public class CommonDigit {
         }
 
         int number = 0;
-        int max =0;
+        int max = 0;
 
         for(int i = 0; i < tmpTab.length; i++) {
             if(tmpTab[i] >= max ) {

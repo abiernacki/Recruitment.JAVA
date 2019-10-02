@@ -12,12 +12,12 @@ public class ExistingPowersOf2 {
         List<String> binaryNumbers = new ArrayList<>();
         List<String> trimNumbers = new ArrayList<>();
         List<Integer> score = new ArrayList<>();
-        Integer counter = 0;
+        int counter = 0;
         int indexGreatestPowerTwo = 0;
 
-        numbers.add(1);
-        numbers.add(4);
         numbers.add(3);
+        numbers.add(1);
+        numbers.add(2);
 
         Collections.sort(numbers);
         Collections.reverse(numbers);
