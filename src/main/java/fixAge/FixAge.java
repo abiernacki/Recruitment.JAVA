@@ -4,7 +4,7 @@ public class FixAge {
 
     public static void main(String[] args) {
 
-        int[] tab = {5, 15, 2, 78, 2, 2};
+        int[] tab = {5, 15, 25, 78, 59, 45};
 
         fixage(tab);
 
@@ -23,8 +23,6 @@ public class FixAge {
         for (int i = 0; i < tmpTab.length; i++){
             if (tmpTab[i] != 0) {
                 System.out.println(tmpTab[i]);
-            }
-            if (tmpTab[i] != 0){
                 counter++;
             }
         }
