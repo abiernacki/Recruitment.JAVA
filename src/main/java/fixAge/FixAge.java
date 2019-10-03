@@ -22,7 +22,11 @@ public class FixAge {
         int counter = 0;
         for (int i = 0; i < tmpTab.length; i++){
             if (tmpTab[i] != 0) {
-                System.out.println(tmpTab[i]);
+                if(i < (tmpTab.length-1)) {
+                    System.out.print(tmpTab[i] + ", ");
+                } else {
+                    System.out.print(tmpTab[i]);
+                }
                 counter++;
             }
         }
